@@ -1,1 +1,333 @@
 https://www.figma.com/file/nyVz7RK3TUH7Z8hPyXg0Y5/Landing-Page-Traveling-Web-(Community)?node-id=1%3A4&t=tj1WNr1LIYw84ZQT-0
+
+ <!-- content -->
+
+    <section id="content">
+      <div
+        class="w-[1440px] h-[2432px] mt-[-64px] bg-white mx-auto rounded-2xl flex flex-col justify-center items-center"
+      >
+        <!-- layanan kami -->
+        <div
+          class="flex flex-col justify-center items-center pt-[95px] gap-[68px]"
+        >
+          <!-- header -->
+          <div>
+            <p
+              class="font-poppins font-[600] text-[30px] leading-[45px] text-[#4D4D4D]"
+            >
+              Layanan Kami
+            </p>
+          </div>
+          <!-- card -->
+          <div class="flex flex-col justify-center items-center gap-[50px]">
+            <!-- up card -->
+            <div class="flex flex-row gap-[150px]">
+              <!-- hotel -->
+              <div
+                class="px-[65px] py-[44px] bg-white rounded-[35px] shadow-lg"
+              >
+                <img src="./assets/images/hotel.png" alt="" />
+              </div>
+              <!-- udara -->
+              <div
+                class="px-[50px] py-[44px] bg-white rounded-[35px] shadow-lg"
+              >
+                <img src="./assets/images/udara.png" alt="" />
+              </div>
+              <!-- kereta -->
+              <div
+                class="px-[65px] py-[36px] bg-white rounded-[35px] shadow-lg"
+              >
+                <img src="./assets/images/kereta.png" alt="" />
+              </div>
+            </div>
+            <!-- downcard -->
+            <div class="flex flex-row gap-[150px]">
+              <!-- umum -->
+              <div
+                class="px-[50px] py-[44px] bg-white rounded-[35px] shadow-lg"
+              >
+                <img src="./assets/images/umum.png" alt="" />
+              </div>
+              <!-- wisata -->
+              <div
+                class="px-[65px] py-[44px] bg-white rounded-[35px] shadow-lg"
+              >
+                <img src="./assets/images/wisata.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- cari hotel -->
+        <div class="mt-[200px]">
+          <!-- header-->
+          <div
+            class="relative flex flex-row justify-center items-center gap-[104px] px-[97px] pt-[11px] pb-[21px] border-[1px] bg-white rounded-[8px] shadow-xl mx-[332px] -mb-[21px]"
+          >
+            <!-- hotel -->
+            <div>
+              <a
+                class="font-[500px] text-[25px] leading-[38px] text-[#4D4D4D] border-b-[3px] border-[#4D4D4D]"
+                href="#"
+              >
+                hotel
+              </a>
+            </div>
+            <!-- transportasi -->
+            <div>
+              <a
+                href="#"
+                class="font-[500px] text-[25px] leading-[38px] text-[#4D4D4D]"
+              >
+                transportasi
+              </a>
+            </div>
+          </div>
+
+          <!-- content -->
+          <div
+            class="flex flex-col justify-center items-center gap-[40px] px-[67px] pt-[40px] pb-[28px] rounded-[35px] shadow-xl z-0"
+          >
+            <!-- content atas -->
+            <div class="flex flex-col justify-center items-center gap-[19px]">
+              <!-- tujuan -->
+              <div>
+                <div class="relative">
+                  <p
+                    class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                  >
+                    Tujuan
+                  </p>
+                </div>
+                <div
+                  class="flex flex-row justify-center py-[19px] pl-[30px] pr-[700px] items-center gap-[42px] border-[1.5px] border-[#4D4D4D] rounded-[15px]"
+                >
+                  <div><img src="./assets/images/search.png" alt="" /></div>
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Kota, hotel Tujuan"
+                      class="border-0 bg-transparent"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- jadwal -->
+              <div class="flex flex-row justify-center items-center gap-[30px]">
+                <!-- check in -->
+                <div>
+                  <div>
+                    <p
+                      class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                    >
+                      Check in
+                    </p>
+                  </div>
+                  <div
+                    class="flex flex-row justify-center py-[19px] px-[30px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
+                  >
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="Jum’at, 11 Nov 2022"
+                        class="bg-transparent border-0"
+                      />
+                    </div>
+                    <div><img src="./assets/images/date.png" alt="" /></div>
+                  </div>
+                </div>
+
+                <!-- durasi -->
+                <div>
+                  <div>
+                    <p
+                      class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                    >
+                      Durasi
+                    </p>
+                  </div>
+                  <div
+                    class="flex flex-row justify-center py-[19px] px-[30px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
+                  >
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="1 Malam"
+                        class="w-[108px] bg-transparent border-0"
+                      />
+                    </div>
+                    <div><img src="./assets/images/moon.png" alt="" /></div>
+                  </div>
+                </div>
+
+                <!-- checkout -->
+                <div>
+                  <div>
+                    <p
+                      class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                    >
+                      Check Out
+                    </p>
+                  </div>
+                  <div
+                    class="flex flex-row justify-center py-[19px] px-[30px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
+                  >
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="Sabtu, 12 Nov 2022"
+                        class="bg-transparent border-0"
+                      />
+                    </div>
+                    <div><img src="./assets/images/date.png" alt="" /></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- konten bawah tombol cari -->
+            <div class="bg-[#4D4D4D] px-[450px] py-[20px] rounded-[15px]">
+              <button
+                type="submit"
+                class="font-poppins font-[700] text-[24px] leading-[36px] text-[#FFFFFF] text-center"
+              >
+                Cari Hotel
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- pesan kamar -->
+        <div
+          class="flex flex-col justify-start items-start gap-[30px] mt-[200px]"
+        >
+          <!-- title -->
+          <div class="">
+            <h1
+              class="font-poppins font-[600] text-[35px] leading-[41px] text-[#4D4D4D]"
+            >
+              Pesan kamarmu di luar negeri
+            </h1>
+          </div>
+
+          <!-- card -->
+          <div class="flex flex-row justify-center items-center gap-[14px]">
+            <div
+              class="px-[25px] py-[15px] bg-[#4D4D4D] rounded-[15px] border-[1px]"
+            >
+              <a
+                href="#"
+                class="font-poppins font-[500] text-[22px] leading-[26px] text-[#FFFFFF]"
+                >Turki</a
+              >
+            </div>
+            <div
+              class="px-[25px] py-[15px] text-[#4D4D4D] bg-[#FFFFFF] rounded-[15px] border-[1px]"
+            >
+              <a
+                href="#"
+                class="font-poppins font-[500] text-[22px] leading-[26px]"
+                >Jepang</a
+              >
+            </div>
+            <div
+              class="px-[25px] py-[15px] text-[#4D4D4D] bg-[#FFFFFF] rounded-[15px] border-[1px]"
+            >
+              <a
+                href="#"
+                class="font-poppins font-[500] text-[22px] leading-[26px]"
+                >Malaysia</a
+              >
+            </div>
+            <div
+              class="px-[25px] py-[15px] text-[#4D4D4D] bg-[#FFFFFF] rounded-[15px] border-[1px]"
+            >
+              <a
+                href="#"
+                class="font-poppins font-[500] text-[22px] leading-[26px]"
+                >Thailand</a
+              >
+            </div>
+          </div>
+
+          <!-- galery -->
+          <div class="flex flex-row justify-start items-start gap-[60px]">
+            <!-- galery 1  -->
+            <div>
+              <!-- photo -->
+              <div><img src="./assets/images/pool.png" alt="" /></div>
+              <!-- info -->
+              <div>
+                <p
+                  class="font-poppins font-[600px] text-[25px] leading-[38px] text-[#4D4D4D]"
+                >
+                  Hotel Lorem Ipsum
+                </p>
+              </div>
+              <!-- star -->
+              <div><img src="./assets/images/5-star.png" alt="" /></div>
+              <!-- price -->
+              <div>
+                <p
+                  class="font-poppins font-[400px] text-[25px] leading-[38px] text-[#8B3131]"
+                >
+                  Rp. 20.400.000
+                </p>
+              </div>
+            </div>
+            <!-- galery 2 -->
+            <div>
+              <!-- photo -->
+              <div><img src="./assets/images/hotel-economy.png" alt="" /></div>
+              <!-- info -->
+              <div>
+                <p
+                  class="font-poppins font-[600px] text-[25px] leading-[38px] text-[#4D4D4D]"
+                >
+                  Lorem Ipsum Juga
+                </p>
+              </div>
+              <!-- star -->
+              <div><img src="./assets/images/4-star.png" alt="" /></div>
+              <!-- price -->
+              <div>
+                <p
+                  class="font-poppins font-[400px] text-[25px] leading-[38px] text-[#8B3131]"
+                >
+                  Rp. 4.500.000
+                </p>
+              </div>
+            </div>
+            <!-- galery 3 -->
+            <div>
+              <!-- photo -->
+              <div><img src="./assets/images/hotel-luxury.png" alt="" /></div>
+              <!-- info -->
+              <div>
+                <p
+                  class="font-poppins font-[600px] text-[25px] leading-[38px] text-[#4D4D4D]"
+                >
+                  Masih Lorem Ipsum
+                </p>
+              </div>
+              <!-- star -->
+              <div><img src="./assets/images/5-star.png" alt="" /></div>
+              <!-- price -->
+              <div>
+                <p
+                  class="font-poppins font-[400px] text-[25px] leading-[38px] text-[#8B3131]"
+                >
+                  Rp. 20.400.000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <!-- container -->
+      <div class="">
+        <div></div>
+      </div>
+    </section>
