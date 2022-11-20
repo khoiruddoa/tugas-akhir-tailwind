@@ -17,13 +17,15 @@
     <!-- section navbar -->
     <section id="navbar" class="w-full fixed z-20">
       <!-- container -->
-      <div class="xl:w-[1440px] bg-black mx-auto">
+      <div class="xl:w-[1440px] bg-transparent mx-auto">
         <div
-          class="lg:px-[121px] md:px-[100px] px-[50px] pt-[36px] pb-[47px] flex flex-row lg:flex-nowrap flex-wrap justify-between items-center text-[#FFFFFF]"
+          class="xl:px-[121px] lg:px-[40px] md:px-[100px] px-[50px] pt-[36px] pb-[47px] flex flex-row lg:flex-nowrap flex-wrap justify-between items-center text-[#FFFFFF]"
         >
           <!-- logo -->
           <div>
-            <h1 class="font-poppins font-[700] text-[44px] leading-[66px]">
+            <h1
+              class="font-poppins font-[700] xl:text-[44px] lg:text-[34px] md:text-[44px] text-[40px] leading-[66px]"
+            >
               MBOLANG
             </h1>
           </div>
@@ -32,7 +34,7 @@
             <button
               data-collapse-toggle="navbar-default"
               type="button"
-              class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              class="inline-flex items-center p-2 ml-3 text-sm text-gray-600 border-gray-100 rounded-lg lg:hidden bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar-default"
               aria-expanded="false"
             >
@@ -60,14 +62,14 @@
           >
             <div class="flex md:flex-row flex-col lg:gap-[165px] md:gap-[40px]">
               <div
-                class="flex lg:flex-row md:flex-row flex-col lg:justify-between items-center md:gap-[59px] font-poppins font-light lg:text-[25px] md:text-[15px] leading-[38px]"
+                class="flex lg:flex-row md:flex-row flex-col lg:justify-between items-center md:gap-[59px] font-poppins font-light xl:text-[25px] lg:text-[20px] md:text-[15px] leading-[38px]"
               >
                 <div><h2>BERANDA</h2></div>
                 <div><h2>TENTANG KAMI</h2></div>
                 <div><h2>BLOG</h2></div>
               </div>
               <div
-                class="md:w-[162px] md:h-[47px] bg-white rounded-[18px] text-black font-poppins text-[25px] leading-[38px] px-[30px] py-[5px] font-medium"
+                class="md:w-[162px] md:h-[47px] bg-white rounded-[18px] text-[#4D4D4D] font-poppins text-[25px] leading-[38px] px-[30px] py-[5px] font-medium"
               >
                 DAFTAR
               </div>
@@ -88,23 +90,23 @@
           class="absolute top-[270px] flex-col justify-center text-center items-center"
         >
           <h1
-            class="text-center font-poppins font-bold text-[95px] leading-[142px] text-white"
+            class="text-center font-poppins font-bold md:text-[95px] md:leading-[142px] text-[40px] leading-[71px] text-white"
           >
             Mari berpetualang!
           </h1>
           <h2
-            class="text-center font-poppins font-[500px] text-[31px] leading-[46px] text-white tracking-wide"
+            class="text-center font-poppins font-[500px] md:text-[31px] md:leading-[46px] text-[21px] leading-[26px] text-white tracking-wide"
           >
             Keluar dari zona nyamanmu, dan traveling bersamaku!
           </h2>
         </div>
       </div>
     </section>
-    <!-- content -->
 
-    <section id="content">
+    <!-- content header-->
+    <section id="content-header">
       <div
-        class="relative z-10 w-[1440px] h-[2432px] mt-[-64px] bg-white mx-auto rounded-2xl border-[10px] flex flex-col justify-center items-center"
+        class="relative z-10 mt-[-50px] backdrop-blur-xl bg-white mx-auto rounded-t-2xl flex flex-col justify-between items-center pb-[4px]"
       >
         <!-- layanan kami -->
         <div
@@ -119,56 +121,69 @@
             </p>
           </div>
           <!-- card -->
-          <div class="flex flex-col justify-center items-center gap-[50px]">
+          <div
+            class="flex flex-col justify-center items-center xl:gap-[50px] md:gap-[20px] gap-[100px]"
+          >
             <!-- up card -->
-            <div class="flex flex-row gap-[150px]">
+            <div
+              class="flex md:flex-row flex-col xl:gap-[150px] md:gap-[40px] gap-[100px]"
+            >
               <!-- hotel -->
               <div
-                class="px-[65px] py-[44px] bg-white rounded-[35px] shadow-lg"
+                class="border-[2px] xl:px-[65px] xl:py-[44px] lg:px-[45px] lg:py-[24px] px-[35px] py-[14px] bg-white rounded-[35px] shadow-lg"
               >
                 <img src="./assets/images/hotel.png" alt="" />
               </div>
               <!-- udara -->
               <div
-                class="px-[50px] py-[44px] bg-white rounded-[35px] shadow-lg"
+                class="border-[2px] xl:px-[50px] xl:py-[44px] lg:px-[30px] lg:py-[24px] px-[20px] py-[14px] bg-white rounded-[35px] shadow-lg"
               >
                 <img src="./assets/images/udara.png" alt="" />
               </div>
               <!-- kereta -->
               <div
-                class="px-[65px] py-[36px] bg-white rounded-[35px] shadow-lg"
+                class="border-[2px] xl:px-[65px] xl:py-[36px] lg:px-[45px] lg:py-[16px] px-[50px] py-[6px] bg-white rounded-[35px] shadow-lg"
               >
                 <img src="./assets/images/kereta.png" alt="" />
               </div>
             </div>
             <!-- downcard -->
-            <div class="flex flex-row gap-[150px]">
+            <div
+              class="flex md:flex-row flex-col xl:gap-[150px] md:gap-[40px] gap-[100px]"
+            >
               <!-- umum -->
               <div
-                class="px-[50px] py-[44px] bg-white rounded-[35px] shadow-lg"
+                class="border-[2px] xl:px-[50px] xl:py-[44px] lg:px-[30px] lg:py-[24px] px-[20px] py-[14px] bg-white rounded-[35px] shadow-lg"
               >
                 <img src="./assets/images/umum.png" alt="" />
               </div>
               <!-- wisata -->
               <div
-                class="px-[65px] py-[44px] bg-white rounded-[35px] shadow-lg"
+                class="border-[2px] xl:px-[65px] xl:py-[44px] lg:px-[45px] lg:py-[24px] px-[40px] py-[14px] bg-white rounded-[35px] shadow-lg"
               >
                 <img src="./assets/images/wisata.png" alt="" />
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
+    <!-- content center -->
+    <section id="content">
+      <div
+        class="relative z-10 backdrop-blur-xl bg-white mx-auto rounded-t-2xl flex flex-col justify-between items-center"
+      >
         <!-- cari hotel -->
-        <div class="mt-[200px]">
+        <div class="mt-[200px] px-[10px]">
           <!-- header-->
           <div
-            class="relative flex flex-row justify-center items-center gap-[104px] px-[97px] pt-[11px] pb-[21px] border-[1px] bg-white rounded-[8px] shadow-xl mx-[332px] -mb-[21px]"
+            class="relative flex flex-row md:justify-between justify-between gap-[10px] items-center lg:px-[97px] md:px-[57px] px-[10px] pt-[11px] pb-[21px] border-[4px] bg-white rounded-[8px] shadow-xl xl:mx-[332px] lg:mx-[232px] md:mx-[132px] mx-[40px] -mb-[21px]"
           >
             <!-- hotel -->
             <div>
               <a
-                class="font-[500px] text-[25px] leading-[38px] text-[#4D4D4D] border-b-[3px] border-[#4D4D4D]"
+                class="font-[500px] md:text-[25px] text-[20px] leading-[38px] text-[#4D4D4D] border-b-[3px] border-[#4D4D4D]"
                 href="#"
               >
                 hotel
@@ -178,7 +193,7 @@
             <div>
               <a
                 href="#"
-                class="font-[500px] text-[25px] leading-[38px] text-[#4D4D4D]"
+                class="font-[500px] md:text-[25px] text-[20px] leading-[38px] text-[#4D4D4D]"
               >
                 transportasi
               </a>
@@ -187,7 +202,7 @@
 
           <!-- content -->
           <div
-            class="flex flex-col justify-center items-center gap-[40px] px-[67px] pt-[40px] pb-[28px] rounded-[35px] shadow-xl z-0"
+            class="flex flex-col justify-center items-center gap-[40px] md:px-[67px] px-[20px] pt-[40px] pb-[28px] border-[4px] rounded-[35px] shadow-xl z-0"
           >
             <!-- content atas -->
             <div class="flex flex-col justify-center items-center gap-[19px]">
@@ -195,13 +210,13 @@
               <div>
                 <div class="relative">
                   <p
-                    class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                    class="font-poppins font-bold md:text-[22px] text-[17px] leading-[22px] text-[#4D4D4D] ml-[15px]"
                   >
                     Tujuan
                   </p>
                 </div>
                 <div
-                  class="flex flex-row justify-center py-[19px] pl-[30px] pr-[700px] items-center gap-[42px] border-[1.5px] border-[#4D4D4D] rounded-[15px]"
+                  class="flex flex-row justify-center md:py-[19px] md:pl-[25px] md:pr-[5px] py-[10px] px-[10px] xl:pr-[700px] items-center gap-[42px] border-[1.5px] border-[#4D4D4D] rounded-[15px]"
                 >
                   <div><img src="./assets/images/search.png" alt="" /></div>
                   <div>
@@ -214,18 +229,20 @@
                 </div>
               </div>
               <!-- jadwal -->
-              <div class="flex flex-row justify-center items-center gap-[30px]">
+              <div
+                class="flex lg:flex-row flex-col justify-center items-center xl:gap-[30px] gap-[20px]"
+              >
                 <!-- check in -->
                 <div>
                   <div>
                     <p
-                      class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                      class="font-poppins font-bold md:text-[22px] text-[17px] leading-[22px] text-[#4D4D4D] ml-[15px]"
                     >
                       Check in
                     </p>
                   </div>
                   <div
-                    class="flex flex-row justify-center py-[19px] px-[30px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
+                    class="flex flex-row justify-center md:py-[19px] md:px-[30px] py-[10px] px-[10px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
                   >
                     <div>
                       <input
@@ -242,19 +259,19 @@
                 <div>
                   <div>
                     <p
-                      class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                      class="font-poppins font-bold md:text-[22px] text-[17px] leading-[22px] text-[#4D4D4D] ml-[15px]"
                     >
                       Durasi
                     </p>
                   </div>
                   <div
-                    class="flex flex-row justify-center py-[19px] px-[30px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
+                    class="flex flex-row justify-center md:py-[19px] md:px-[30px] py-[10px] px-[10px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
                   >
                     <div>
                       <input
                         type="text"
                         placeholder="1 Malam"
-                        class="w-[108px] bg-transparent border-0"
+                        class="md:w-[108px] bg-transparent border-0"
                       />
                     </div>
                     <div><img src="./assets/images/moon.png" alt="" /></div>
@@ -265,13 +282,13 @@
                 <div>
                   <div>
                     <p
-                      class="font-poppins font-bold text-[22px] leading-[22px] text-[#4D4D4D] ml-[15px]"
+                      class="font-poppins font-bold md:text-[22px] text-[17px] leading-[22px] text-[#4D4D4D] ml-[15px]"
                     >
                       Check Out
                     </p>
                   </div>
                   <div
-                    class="flex flex-row justify-center py-[19px] px-[30px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
+                    class="flex flex-row justify-center md:py-[19px] md:px-[30px] py-[10px] px-[10px] items-center border-[1.5px] border-[#4D4D4D] rounded-[15px] gap-[42px]"
                   >
                     <div>
                       <input
@@ -285,8 +302,11 @@
                 </div>
               </div>
             </div>
+
             <!-- konten bawah tombol cari -->
-            <div class="bg-[#4D4D4D] px-[450px] py-[20px] rounded-[15px]">
+            <div
+              class="bg-[#4D4D4D] xl:px-[450px] lg:px-[350px] md:px-[250px] px-[10px] py-[20px] rounded-[15px] px-auto"
+            >
               <button
                 type="submit"
                 class="font-poppins font-[700] text-[24px] leading-[36px] text-[#FFFFFF] text-center"
@@ -296,22 +316,31 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
+    <!-- content foot -->
+    <section id="content-foot">
+      <div
+        class="relative z-10 backdrop-blur-xl bg-white mx-auto rounded-b-2xl flex flex-col justify-between items-center xl:p-0 md:px-[20px] md:pb-[161px]"
+      >
         <!-- pesan kamar -->
         <div
-          class="flex flex-col justify-start items-start gap-[30px] mt-[200px]"
+          class="flex flex-col md:justify-start justify-center md:items-start items-center gap-[30px] mt-[200px]"
         >
           <!-- title -->
-          <div class="">
+          <div class="md:text-left text-center">
             <h1
-              class="font-poppins font-[600] text-[35px] leading-[41px] text-[#4D4D4D]"
+              class="font-poppins font-[600] md:text-[35px] text-[20px] leading-[41px] text-[#4D4D4D]"
             >
               Pesan kamarmu di luar negeri
             </h1>
           </div>
 
           <!-- card -->
-          <div class="flex flex-row justify-center items-center gap-[14px]">
+          <div
+            class="flex flex-row flex-wrap justify-center items-center gap-[14px]"
+          >
             <div
               class="px-[25px] py-[15px] bg-[#4D4D4D] rounded-[15px] border-[1px]"
             >
@@ -351,9 +380,11 @@
           </div>
 
           <!-- galery -->
-          <div class="flex flex-row justify-start items-start gap-[60px]">
+          <div
+            class="flex md:flex-row flex-col justify-start items-start xl:gap-[60px] lg:gap-[40px] md:gap-[10px] md:px-0 px-[15px] gap-[30px]"
+          >
             <!-- galery 1  -->
-            <div>
+            <div class="md:w-1/3">
               <!-- photo -->
               <div><img src="./assets/images/pool.png" alt="" /></div>
               <!-- info -->
@@ -376,7 +407,7 @@
               </div>
             </div>
             <!-- galery 2 -->
-            <div>
+            <div class="md:w-1/3">
               <!-- photo -->
               <div><img src="./assets/images/hotel-economy.png" alt="" /></div>
               <!-- info -->
@@ -399,7 +430,7 @@
               </div>
             </div>
             <!-- galery 3 -->
-            <div>
+            <div class="md:w-1/3">
               <!-- photo -->
               <div><img src="./assets/images/hotel-luxury.png" alt="" /></div>
               <!-- info -->
@@ -428,14 +459,14 @@
 
     <section
       id="footer"
-      class="relative z-0 mx-auto w-full h-[320px] mt-[-30px] bg-[url('../assets/images/background-foot.png')] bg-center bg-cover bg-no-repeat"
+      class="relative z-0 mx-auto w-full h-[320px] mt-[-40px] bg-[url('../assets/images/background-foot.png')] bg-center bg-cover bg-no-repeat"
     >
       <!-- container -->
       <div
-        class="w-[1440px] relative mx-auto flex flex-row justify-between items-start px-[123px] pt-[100px]"
+        class="max-w-[1198px] relative mx-auto flex flex-row justify-between items-start xl:px-[123px] px-[40px] pt-[100px]"
       >
         <!-- information -->
-        <div class="flex flex-col">
+        <div class="w-2/3 flex flex-col">
           <!-- header -->
           <div>
             <h1
@@ -458,7 +489,7 @@
         </div>
         <!-- medsos -->
         <div
-          class="flex flex-col justify-start items-start gap-[8px] pl-[240px]"
+          class="w-1/3 flex flex-col justify-start items-start gap-[8px] pl-[240px]"
         >
           <!-- header -->
           <div>
