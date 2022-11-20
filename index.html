@@ -12,6 +12,10 @@
       rel="stylesheet"
     />
     <link href="./dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css"
+    />
   </head>
   <body>
     <!-- section navbar -->
@@ -19,7 +23,7 @@
       <!-- container -->
       <div class="xl:w-[1440px] mx-auto">
         <div
-          class="xl:px-[121px] lg:px-[40px] md:px-[100px] px-[50px] pt-[36px] pb-[47px] flex flex-row lg:flex-nowrap flex-wrap justify-between items-center text-[#FFFFFF]"
+          class="xl:px-[121px] lg:px-[40px] md:px-[100px] px-[50px] xl:pt-[36px] xl:pb-[47px] md:pt-[26] md:pb[37px] pb-[20px] flex flex-row lg:flex-nowrap flex-wrap justify-between items-center text-[#FFFFFF]"
         >
           <!-- logo -->
           <div>
@@ -64,7 +68,7 @@
               <div
                 class="flex lg:flex-row md:flex-row flex-col lg:justify-between items-center md:gap-[59px] font-poppins font-light xl:text-[25px] lg:text-[20px] md:text-[15px] leading-[38px]"
               >
-                <div><h2>BERANDA</h2></div>
+                <div c><h2>BERANDA</h2></div>
                 <div><h2>TENTANG KAMI</h2></div>
                 <div><h2>BLOG</h2></div>
               </div>
@@ -513,8 +517,9 @@
     <script src="./jquery.js"></script>
     <script>
       $(window).scroll(function () {
-        $("nav").toggleClass("bg-gray-400 ", $(this).scrollTop() > 460);
+        $("nav").toggleClass("bg-[#4D4D4D] ", $(this).scrollTop() > 460);
       });
     </script>
+    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
   </body>
 </html>
