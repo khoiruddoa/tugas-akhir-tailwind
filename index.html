@@ -15,9 +15,9 @@
   </head>
   <body>
     <!-- section navbar -->
-    <section id="navbar" class="w-full fixed z-20">
+    <nav id="navbar" class="w-full fixed z-20">
       <!-- container -->
-      <div class="xl:w-[1440px] bg-transparent mx-auto">
+      <div class="xl:w-[1440px] mx-auto">
         <div
           class="xl:px-[121px] lg:px-[40px] md:px-[100px] px-[50px] pt-[36px] pb-[47px] flex flex-row lg:flex-nowrap flex-wrap justify-between items-center text-[#FFFFFF]"
         >
@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </nav>
 
     <!-- hero -->
 
@@ -510,5 +510,11 @@
       </div>
     </section>
     <script src="./node_modules/flowbite/dist/flowbite.js"></script>
+    <script src="./jquery.js"></script>
+    <script>
+      $(window).scroll(function () {
+        $("nav").toggleClass("bg-gray-400 ", $(this).scrollTop() > 460);
+      });
+    </script>
   </body>
 </html>
