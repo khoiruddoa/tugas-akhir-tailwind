@@ -2008,6 +2008,11 @@ input:checked + .toggle-bg {
   background-color: rgb(77 77 77 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#242323\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 35 35 / var(--tw-bg-opacity));
+}
+
 .hover\:font-extrabold:hover {
   font-weight: 800;
 }
